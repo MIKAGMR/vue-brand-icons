@@ -20,7 +20,7 @@ yarn add vue-brand-icons
 import { AdobeIcon, PinterestIcon, ... } from 'vue-brand-icons'
 ```
 
-See all icons and usage here: https://github.com/MIKAGMR/vue-brand-icons
+See all icons and usage here: https://mikagmr.github.io/vue-brand-icons/
 
 ### Sizing
 
