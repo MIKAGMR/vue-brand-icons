@@ -54,7 +54,7 @@
     <footer class="footer">
       <div class="container">
         <p>&copy; {{ year }} <a href="https://github.com/mikagmr">mikagmr</a></p>
-        <p>This is a fork from <a href="https://github.com/egoist/vue-feather-icons">vue-feather-icons</a>. Please support the original author.</p>
+        <p>This is a fork of <a href="https://github.com/egoist/vue-feather-icons">vue-feather-icons</a>. Please support the original author.</p>
       </div>
     </footer>
   </div>

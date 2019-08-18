@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/npm/l/vue-brand-icons?style=flat-square)](http://opensource.org/licenses/MIT)
 
 
-This is a fork from [vue-feather-icons](https://github.com/egoist/vue-feather-icons) and use [simple-icons](https://github.com/simple-icons/simple-icons).
+This is a fork of [vue-feather-icons](https://github.com/egoist/vue-feather-icons) and use [simple-icons](https://github.com/simple-icons/simple-icons).
 Please support the orginal author: [egoist](https://github.com/egoist) 
 
 ## Install
