@@ -25,7 +25,7 @@
     "example": "poi --serve --config example/poi.config.js",
     "build:example": "poi --prod --config example/poi.config.js",
     "prebuild:example": "npm run build:icons",
-    "semantic-release": "semantic-release pre && npm publish"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "mikagmr <michael.spreu@googlemail.com>",
   "license": "MIT",
