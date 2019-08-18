@@ -1,7 +1,7 @@
 # vue-brand-icons
-[![travis build](https://img.shields.io/travis/MIKAGMR/vue-brand-icons?style=flat-square)]
+[![travis build](https://img.shields.io/travis/MIKAGMR/vue-brand-icons?style=flat-square)](https://travis-ci.org/MIKAGMR/vue-brand-icons)
 [![version](https://img.shields.io/npm/v/vue-brand-icons.svg?style=flat-square)](http://npm.im/vue-brand-icons)
-[![license](https://img.shields.io/npm/l/vue-brand-icons?style=flat-square)]
+[![license](https://img.shields.io/npm/l/vue-brand-icons?style=flat-square)](http://opensource.org/licenses/MIT)
 
 
 This is a fork from [vue-feather-icons](https://github.com/egoist/vue-feather-icons) and use [simple-icons](https://github.com/simple-icons/simple-icons).
