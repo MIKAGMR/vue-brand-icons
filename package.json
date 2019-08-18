@@ -1,0 +1,72 @@
+{
+  "name": "vue-brand-icons",
+  "version": "0.0.0-development",
+  "description": "Simply beautiful open source brand icons as Vue functional components.",
+  "repository": {
+    "url": "https://github.com/MIKAGMR/vue-brand-icons",
+    "type": "git"
+  },
+  "main": "dist/vue-brand-icons.cjs.js",
+  "cdn": "dist/vue-brand-icons.min.js",
+  "unpkg": "dist/vue-brand-icons.min.js",
+  "module": "dist/vue-brand-icons.es.js",
+  "files": [
+    "dist",
+    "icons"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo 'no tests!'",
+    "commit": "git-cz",
+    "prepublishOnly": "npm run build",
+    "build": "npm run build:icons && npm run build:dist",
+    "build:dist": "bili --format umd,es,cjs,umd-min --js buble --name vue-brand-icons",
+    "build:icons": "node build && babel src/components -d icons",
+    "example": "poi --serve --config example/poi.config.js",
+    "build:example": "poi --prod --config example/poi.config.js",
+    "prebuild:example": "npm run build:icons",
+    "semantic-release": "semantic-release pre && npm publish"
+  },
+  "author": "mikagmr <michael.spreu@googlemail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-helper-vue-jsx-merge-props": "^2.0.2",
+    "simple-icons": "1.13.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "bili": "^3.4.2",
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "eslint-config-rem": "^4.0.0",
+    "feather-icons": "^4.10.0",
+    "fs-extra": "^8.0.1",
+    "lodash.kebabcase": "^4.1.1",
+    "marked": "^0.6.0",
+    "pascal-case": "^2.0.1",
+    "poi": "^12.4.4",
+    "prismjs": "^1.6.0",
+    "semantic-release": "^15.13.21",
+    "typeface-nunito": "^0.0.72",
+    "v-tippy": "^1.0.0",
+    "vue": "^2.5.22",
+    "vue-github-badge": "^1.0.1",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "babel": {
+    "presets": [
+      [
+        "poi/babel",
+        {
+          "jsx": "vue"
+        }
+      ]
+    ]
+  }
+}
