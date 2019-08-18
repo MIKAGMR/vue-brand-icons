@@ -20,6 +20,8 @@ yarn add vue-brand-icons
 import { AdobeIcon, PinterestIcon, ... } from 'vue-brand-icons'
 ```
 
+See all icons and usage here: https://github.com/MIKAGMR/vue-brand-icons
+
 ### Sizing
 
 By default, icons will be sized based on the font size of the parent element.
