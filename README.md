@@ -1,6 +1,7 @@
 # vue-brand-icons
 [![travis build](https://img.shields.io/travis/MIKAGMR/vue-brand-icons?style=flat-square)](https://travis-ci.org/MIKAGMR/vue-brand-icons)
 [![version](https://img.shields.io/npm/v/vue-brand-icons.svg?style=flat-square)](http://npm.im/vue-brand-icons)
+[![downloads](https://img.shields.io/npm/dm/vue-brand-icons.svg?style=flat-square)](http://npm-stat.com/charts.html?package=vue-brand-icons&from=2019-08-05)
 [![license](https://img.shields.io/npm/l/vue-brand-icons?style=flat-square)](http://opensource.org/licenses/MIT)
 
 
